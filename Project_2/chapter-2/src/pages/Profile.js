@@ -4,7 +4,7 @@ import List from '../components/List';
 import './Profile.css';
 
 function Profile({ userName }) {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [profile, setProfile] = useState({});
 
   const items = [
